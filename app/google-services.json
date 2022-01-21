@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68666628900",
+    "firebase_url": "https://foodie-chef.firebaseio.com",
+    "project_id": "foodie-chef",
+    "storage_bucket": "foodie-chef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68666628900:android:8ede99b662eeb8343b31b1",
+        "android_client_info": {
+          "package_name": "com.example.foodiechef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68666628900-97kicggecifg50n2co165vh7aafohfej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodiechef",
+            "certificate_hash": "c0a6b193091392f308f4111c317fc79a588854e6"
+          }
+        },
+        {
+          "client_id": "68666628900-1ssg6vlskhgko22vc89pbbh5daar7fm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClkliKuw6Q2KYSgE-4vGnxc1keRvAzpLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68666628900-1ssg6vlskhgko22vc89pbbh5daar7fm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

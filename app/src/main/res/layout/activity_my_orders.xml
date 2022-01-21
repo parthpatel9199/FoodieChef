@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".MyOrdersActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/back">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_chevron_left_app_24dp"
+            android:background="@null"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myorder"
+            style="@style/head_home"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/category_bottom">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/app"/>
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

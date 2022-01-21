@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="@color/back"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       android:layout_weight="1"
+        app:defaultNavHost="true"
+       />
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp"
+        app:bnc_mode="inside"
+        >
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/app"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_home_black_24dp"
+            app:bt_title="@string/title_home"
+            app:bt_padding="@dimen/_10sdp"
+            app:bt_titlePadding="@dimen/_10sdp"
+            />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/app"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_search_black_24dp"
+            app:bt_title="@string/search"
+            app:bt_padding="@dimen/_10sdp"
+            app:bt_titlePadding="@dimen/_10sdp"
+            />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_chef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/app"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_person_grey_24dp"
+            app:bt_title="@string/title_chef"
+            app:bt_padding="@dimen/_10sdp"
+            app:bt_titlePadding="@dimen/_10sdp"
+            />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/app"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_shopping_cart_black_24dp"
+            app:bt_title="@string/title_cart"
+            app:bt_padding="@dimen/_10sdp"
+            app:bt_titlePadding="@dimen/_10sdp"
+            />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/app"
+            app:bt_colorInactive="#000000"
+            app:bt_icon="@drawable/ic_account_circle_black_24dp"
+            app:bt_title="@string/title_profile"
+            app:bt_padding="@dimen/_10sdp"
+            app:bt_titlePadding="@dimen/_10sdp"
+            />
+        <!-- Add more child items here - max upto 5 -->
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+</LinearLayout>

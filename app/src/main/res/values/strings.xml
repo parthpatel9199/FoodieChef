@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Foodie Chef</string>
+    <string name="foodie_chef">Foodie Chef</string>
+    <string name="name">Username</string>
+    <string name="name_here">Username here</string>
+    <string name="pass">Password</string>
+    <string name="pass_here">Password here</string>
+    <string name="cpass">Confirm Password</string>
+    <string name="email">Email ID</string>
+    <string name="email_here">Email ID here</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="mobile_here">Mobile No. here</string>
+    <string name="location">Location</string>
+    <string name="location_here">Location here</string>
+    <string name="biography">BioGraphy</string>
+    <string name="biography_here">BioGraphy here</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+    <string name="reset">Reset</string>
+    <string name="forgot_te">We just need your registered email for reset password!!</string>
+    <string name="signin">Sign in</string>
+    <string name="sibut">SIGN IN</string>
+    <string name="sin"><u>Sign in</u></string>
+    <string name="signout">Sign Out</string>
+    <string name="old_user">Already have an account?</string>
+    <string name="new_here">New to FoodieChef?</string>
+    <string name="signup"><u>Sign up now</u></string>
+    <string name="sup">Sign up</string>
+    <string name="sbut">SIGN UP</string>
+    <string name="sin_tag">Everyday we have new products posted. Sign up and grab your now.</string>
+    <string name="browse">Browse</string>
+    <string name="browse_tag">Browse our app and find your favourite food</string>
+    <string name="order">Order</string>
+    <string name="order_tag">Order your favourite food at your place!!</string>
+    <string name="enjoy">Enjoy</string>
+    <string name="enjoy_tag">Enjoy your favourite food!!</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Start</string>
+    <string name="add">ADD</string>
+    <string name="cancel">Cancel</string>
+    <string name="prepared">Prepared</string>
+    <string name="add_food">Add Food</string>
+    <string name="share">Share</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="favourite">Favourite</string>
+    <string name="myorder">My Order</string>
+    <string name="total_price">Total Price :</string>
+    <string name="checkout">Check Out</string>
+    <string name="delivery">Delivery</string>
+    <string name="pickup">Pick up</string>
+    <string name="address">Delivery Address :</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="gst">GST</string>
+    <string name="p_payment">Proceed to Payment</string>
+    <string name="order_com">Order Complete</string>
+    <string name="thankyou">Thank You!</string>
+    <string name="order_c">Your order is confirmed</string>
+    <string name="order_id">Your Order Number</string>
+    <string name="final_am">Final Amount</string>
+    <string name="order_det">Order Details</string>
+    <string name="pay_meth">Payment Method</string>
+    <string name="rate">Rate Chef</string>
+    <string name="rating">Rating and Reviews</string>
+    <string name="food_chef">Add another food deal from this chef</string>
+
+    <string name="orderid">Order id :</string>
+    <string name="orderprice">Order Price :</string>
+    <string name="status">Status :</string>
+    <string name="repeat">Repeat</string>
+    <string name="item_name">Item name</string>
+    <string name="unit">Unit</string>
+    <string name="price_title">Price</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_chef">Chef</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search">Search</string>
+
+
+    <!--Catagories-->
+    <string name="category">Category</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="fastfood">Fast Food</string>
+
+    <string name="food_name_here">Food name here</string>
+    <string name="food_cate_here">Food Category here</string>
+    <string name="food_ingrident_here">Food Ingrident here</string>
+    <string name="ingrident">Ingridents Details :</string>
+    <string name="chef_de">Chef Details :</string>
+    <string name="food_price_here">Food Price here</string>
+    <string name="price">Price : </string>
+    <string name="food_time_here">Food time here</string>
+    <string name="time">Time : </string>
+    <string name="food_image">Food Image</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_key" translatable="false">AIzaSyDGw7_nauDL7Wa0vt4VjDf2zJEJQXJrKbk</string>
+    <string name="facebook_app_id">184925379242333</string>
+    <string name="fb_login_protocol_scheme">fb184925379242333</string>
+
+
+    <string-array name="category_array">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Fast Food</item>
+        <item>Food Category here</item>
+    </string-array>
+
+    <string-array name="hour_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="minute_array">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+</resources>

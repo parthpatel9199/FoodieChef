@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".AddFoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/back"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backToProfile"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:background="@null"
+            android:src="@drawable/ic_chevron_left_app_24dp" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/head_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="@string/add_food" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/food_name_here"
+            android:inputType="text"
+            android:textColor="#c5c6c8"
+            android:textColorHint="#c5c6c8"
+            android:textSize="@dimen/_12ssp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <!--<EditText
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="@null"
+
+        android:inputType="text"
+        android:textColor="#c5c6c8"
+        android:textColorHint="#c5c6c8"
+        android:textSize="@dimen/_12ssp" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp">
+
+        <Spinner
+            android:id="@+id/food_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/food_category_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_44sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+            android:focusable="false"
+            android:hint="@string/food_cate_here"
+            android:inputType="text"
+            android:textColor="#c5c6c8"
+            android:textColorHint="#9c9c9c"
+            android:textSize="@dimen/_12ssp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/food_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/food_price_here"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="#c5c6c8"
+            android:textColorHint="#c5c6c8"
+            android:textSize="@dimen/_12ssp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<EditText
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="@null"
+        android:hint="@string/food_price_here"
+        android:inputType="text"
+        android:textColor="#c5c6c8"
+        android:textColorHint="#c5c6c8"
+        android:textSize="@dimen/_12ssp" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/food_ingrident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/food_ingrident_here"
+            android:inputType="text"
+            android:textColor="#c5c6c8"
+            android:textColorHint="#c5c6c8"
+            android:textSize="@dimen/_12ssp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--<EditText
+        android:id="@+id/food_ingrident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="@null"
+        android:hint="@string/food_ingrident_here"
+        android:inputType="text"
+        android:textColor="#c5c6c8"
+        android:textColorHint="#c5c6c8"
+        android:textSize="@dimen/_12ssp" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/hour"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Hour"
+            android:textColor="#9c9c9c"
+            android:layout_gravity="center_vertical"/>
+
+        <Spinner
+            android:id="@+id/minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Minute"
+            android:textColor="#9c9c9c"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+   <!-- <EditText
+        android:id="@+id/food_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="@null"
+        android:hint="@string/food_time_here"
+        android:inputType="text"
+        android:textColor="#c5c6c8"
+        android:textColorHint="#c5c6c8"
+        android:textSize="@dimen/_12ssp" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/location_here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/location_here"
+                android:inputType="text"
+                android:textColor="#c5c6c8"
+                android:textColorHint="#c5c6c8"
+                android:textSize="@dimen/_12ssp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--<EditText
+            android:id="@+id/location_here"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@null"
+            android:hint="@string/location_here"
+            android:textColor="#c5c6c8"
+            android:textColorHint="#c5c6c8"
+            android:textSize="@dimen/_13ssp" />-->
+
+        <ImageView
+            android:id="@+id/openmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_9sdp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/ic_location_on_black_24dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:background="#c5c6c8" />
+
+    <FrameLayout
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/food_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:contentDescription="@string/food_image"
+            android:src="@drawable/ic_photo_black_24dp" />
+
+        <ProgressBar
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addFood"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:background="@drawable/add_button"
+            android:text="@string/add"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:background="@drawable/add_button"
+            android:text="@string/cancel"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
